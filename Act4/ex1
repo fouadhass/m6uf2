@@ -10,7 +10,7 @@ done
 case $seguir in
     si)
         echo "Endavant amb les emocions positives! Obrint l'enllaç adjunt..."
-        xdg-open "https://www.youtube.com/watch?v=jaLDoWqIq2M"  # Exemple d'enllaç
+        xdg-open "https://www.youtube.com/watch?v=jaLDoWqIq2M"  # Obre amb el navegador per defecte ;)
         ;;
     no)
         echo "Entès. Gràcies per la teva resposta."
