@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# ¡¡ PREVIAMENT IMPORTANT - HAS DE CREAR AQUEST DOS FITXERS!!
+# servidors.txt que conté la llista dels teus servidors, un per línia (Exemple he posat la meva própia máquina).
+# registre.txt que serà utilitzat per enregistrar els resultats de la comprovació (Un cop executat al script BASH, consulta al fitxer).
+
 # Funció per comprovar l'estat d'un servidor remot
 comprovar_estat_servidor() {
     # Assigna el primer argument de la funció (el nom del servidor) a la variable "servidor"
